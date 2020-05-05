@@ -1,0 +1,31 @@
+{
+  "name": "codemirror-xmlmixed-mode",
+  "version": "1.0.0",
+  "description": "a enhanced codemirror xml mixed mode",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "codemirror",
+    "mode",
+    "xml",
+    "mixed"
+  ],
+  "sideEffects": true,
+  "author": "vipcxj",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/html": "^5.3.18",
+    "@storybook/preset-typescript": "^3.0.0",
+    "@types/codemirror": "0.0.90",
+    "babel-loader": "^8.1.0",
+    "codemirror": "^5.52.2",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {}
+}
