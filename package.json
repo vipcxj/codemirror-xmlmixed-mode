@@ -1,6 +1,6 @@
 {
   "name": "codemirror-xmlmixed-mode",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a enhanced codemirror xml mixed mode",
   "homepage": "https://vipcxj.github.io/codemirror-xmlmixed-mode",
   "main": "dist/index.js",
