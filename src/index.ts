@@ -79,7 +79,7 @@ function createTag(text: string): ITag | null {
     }
 }
 
-export function defaultDecideMode(ignored: ITag): any {
+function defaultDecideMode(ignored: ITag): any {
     return null;
 }
 
