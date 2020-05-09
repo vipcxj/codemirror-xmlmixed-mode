@@ -4,7 +4,7 @@ import 'codemirror/mode/xml/xml';
 
 declare module 'codemirror' {
     function copyState<T = any>(mode: any, state: T): T;
-    function registerGlobalHelper(type: string, name: string, predicate: (mode: Mode<any>, cm: CodeMirror.Editor) => boolean, value: any): void;
+    function registerGlobalHelper(type: string, name: string, predicate: (mode: CodeMirror.Mode<any>, cm: CodeMirror.Editor) => boolean, value: any): void;
 }
 
 function getTagRegexp(tagName: string, anchored: boolean): RegExp {

@@ -2,9 +2,15 @@
   "name": "codemirror-xmlmixed-mode",
   "version": "1.0.0",
   "description": "a enhanced codemirror xml mixed mode",
-  "main": "index.ts",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist & make-dir dist & cpr src/index.css dist/index.css & tsc -b tsconfig.json",
+    "prepublish": "npm run-script build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -24,6 +30,9 @@
     "@types/codemirror": "0.0.90",
     "babel-loader": "^8.1.0",
     "codemirror": "^5.52.2",
+    "cpr": "^3.0.1",
+    "make-dir-cli": "^2.0.0",
+    "rimraf": "^3.0.2",
     "tslint": "^6.1.1",
     "typescript": "^3.8.3"
   },
