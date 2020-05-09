@@ -1,6 +1,6 @@
 {
   "name": "codemirror-xmlmixed-mode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a enhanced codemirror xml mixed mode",
   "main": "dist/index.ts",
   "types": "dist/index.d.ts",
